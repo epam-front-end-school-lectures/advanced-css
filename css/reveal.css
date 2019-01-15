@@ -1172,3 +1172,272 @@ html:-moz-full-screen-ancestor {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.reveal .triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid #D35D47;
+}
+
+.reveal .triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 75px solid #008ACE;
+}
+
+.reveal .m-auto {
+  margin: auto;
+}
+
+.reveal .grid-figures {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.reveal .grid-figures > div {
+  width: 480px;
+}
+
+.reveal .trapezium {
+  border-bottom: 100px solid #39C2D7;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 100px;
+}
+
+.reveal .oval {
+  height: 100px;
+  width: 170px;
+  background-color: #263852;
+  border-radius: 50%;
+}
+
+.reveal .pentagon {
+  position: relative;
+  width: 90px;
+  border-width: 60px 25px 0;
+  border-style: solid;
+  border-color: #01ff70 transparent;
+  margin-top: 81px;
+}
+.reveal .pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -128px;
+  left: -25px;
+  border-width: 0px 70px 68px;
+  border-style: solid;
+  border-color: transparent transparent #01ff70;
+}
+
+.reveal .pacman {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  border: 50px solid #1abc9c;
+  border-right-color: rgba(255,255,255,0);
+  -webkit-border-radius: 80px;
+  border-radius: 80px;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.reveal .pacman::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  content: "";
+  top: -70px;
+  left: -20px;
+  border: none;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  font: normal 16px/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(255,255,255,1);
+  text-shadow: none;
+}
+
+.reveal .yin-yang {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 96px;
+  height: 48px;
+  position: relative;
+  border: 2px solid #1abc9c;
+  border-bottom-width: 50px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(255,255,255,1);
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+}
+
+.reveal .yin-yang::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  border: 18px solid #1abc9c;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(255,255,255,1);
+  text-shadow: none;
+}
+
+.reveal .yin-yang::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  border: 18px solid rgba(255,255,255,1);
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  text-shadow: none;
+}
+
+.reveal .bow-tie {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0;
+  border: 100px solid #1abc9c;
+  border-top: 70px dotted rgba(0,0,0,0);
+  border-bottom: 90px dotted rgba(0,0,0,0);
+  -webkit-border-radius: 63px;
+  border-radius: 63px;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  position: relative;
+}
+
+.reveal .bow-tie::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  content: "";
+  top: -20px;
+  right: 0;
+  left: -25px;
+  border: none;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font: normal 16px/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(26, 188, 156);
+  text-shadow: none;
+}
+
+.reveal .round-star-label {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  margin-top: 40px;
+}
+
+.reveal .round-star-label::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  text-shadow: none;
+  -webkit-transform: rotateZ(30deg)   ;
+  transform: rotateZ(30deg)   ;
+}
+
+.reveal .round-star-label::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  text-shadow: none;
+  -webkit-transform: rotateZ(60deg)   ;
+  transform: rotateZ(60deg)   ;
+}
+
+.ellipse-hidden {
+  shape-outside: ellipse(100px 200px at 50% 50%);
+  width: 300px;
+  height: 500px;
+  float: left;
+  opacity: .2;
+}
