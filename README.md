@@ -16,9 +16,11 @@ Presentation to lecture about how the different features of CSS works.
 ######Transform/Animate
 * Transformation with CSS in 2D...and 3D!
 * Transition/Animation
+* Irregular Shapes
+* Scroll Snap Points
+* Support queries
+* Will Change Module
 
-######Layouts
-* Flex and multicolumns
 
 ### Lates version of the presentation online
 
@@ -26,4 +28,3 @@ Presentation to lecture about how the different features of CSS works.
 
 ### Download presentation
 - [actual stable presentation build](https://github.com/epam-front-end-school-lectures/advanced-css/archive/v.2016.1.zip "actual stable build")
-- [version with useful links](https://github.com/epam-front-end-school-lectures/advanced-css/archive/v.2016.1-links.zip "version with useful links")
