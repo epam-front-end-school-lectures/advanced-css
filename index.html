@@ -158,7 +158,7 @@ E:only-of-type { /* rules */ }</code></pre>
             </section>
             <section>
 							<pre><code class="hljs css">E:not(s) { /* rules */ }
-E:matches(s) { /* rules */ }
+E:is(s) /*renamed :matches*/ { /* rules */ }
 
 E:default { /* rules */ }
 
@@ -184,13 +184,7 @@ E:any-link { /* rules */ }
 E:local-link { /* rules */ }
 E:local-link(0) { /* rules */ }
 
-E:current { /* rules */ }
-E:current(s) { /* rules */ }
-E:past { /* rules */ }
-E:future { /* rules */ }</code></pre>
-            </section>
-            <section>
-							<pre><code class="hljs css">E:indeterminate { /* rules */ }
+E:indeterminate { /* rules */ }
 
 E:nth-match(n of s) { /* rules */ }
 E:nth-last-match(n of s) { /* rules */ }
